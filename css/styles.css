@@ -228,7 +228,7 @@ background-color: #404bbf;
     gap: 24px;
 }
 
-.icons-features {
+.container-icons {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -239,6 +239,18 @@ background-color: #404bbf;
     height: 112px;
     margin-bottom: 8px;
 }
+
+/* .icons-features {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    background-color: #f4f4fd;
+    width: 100%;
+    height: 112px;
+    margin-bottom: 8px;
+} */
 
 /* Our Team */
 
@@ -338,7 +350,7 @@ background-color: #404bbf;
 .team-icons {
     width: 16px;
     height: 16px;
-    fill: ##f4f4fd;
+    fill: #f4f4fd;
 }
 
 .our-team-item-icons:hover {
@@ -443,6 +455,8 @@ background-color: #404BBF;
 .footer {
     background: #2e2f42;
     padding: 100px 0;
+    display: flex;
+    align-items: baseline;
 }
 
 .container-logo {
@@ -452,6 +466,11 @@ background-color: #404BBF;
 
 .footer-logo-part {
     color: #f4f4fd;
+}
+
+.footer-container {
+    margin-right: 120px;
+    
 }
 
 .footer-text {

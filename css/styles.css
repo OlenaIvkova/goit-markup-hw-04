@@ -230,7 +230,23 @@ background-color: #404bbf;
     flex-wrap: nowrap;
 }
 
-.container-icons {
+/* .container-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    background-color: #f4f4fd;
+    width: 100%;
+    height: 112px;
+    margin-bottom: 8px;
+    padding: 24px 100px;
+} */
+
+
+
+
+.icons-features {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -242,18 +258,6 @@ background-color: #404bbf;
     margin-bottom: 8px;
     padding: 24px 100px;
 }
-
-/* .icons-features {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid #8e8f99;
-    border-radius: 4px;
-    background-color: #f4f4fd;
-    width: 100%;
-    height: 112px;
-    margin-bottom: 8px;
-} */
 
 /* Our Team */
 

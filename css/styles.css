@@ -100,7 +100,7 @@ background-color: ;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-list {
@@ -330,8 +330,6 @@ background-color: #404bbf;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40px;
-    height: 40px;
     border-radius: 50%;
     background-color: #4d5ae5;
     fill: #fff;
@@ -475,7 +473,6 @@ background-color: #404BBF;
 
 .footer-container {
     margin-right: 120px;
-
 }
 
 .footer-text {
@@ -490,20 +487,20 @@ background-color: #404BBF;
 .footer-list-icons {
     display: flex;
     gap: 24px;
-    }
+}
     
-    .footer-item-icons {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-        background-color: #4d5ae5;
-        fill: #fff;
-        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-        }
-    
-    .footer-item-icons:hover {
+.footer-item-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4d5ae5;
+    fill: #fff;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+}
+
+.footer-item-icons:hover {
     background-color: #31d0aa;
-    }
+}
